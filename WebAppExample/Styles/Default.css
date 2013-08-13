@@ -1,0 +1,14 @@
+﻿a {
+    color: rgb(245, 6, 50);
+    background-color: rgb(188, 189, 182);
+    text-align: center;
+}
+
+.labelHeader {
+    text-align: center;
+    padding: 3px 2px 1px 1px;
+    font-family:Georgia;
+    font-size:12px;
+    height: 20px;
+    border:2px solid rgb(244, 191, 58);
+}

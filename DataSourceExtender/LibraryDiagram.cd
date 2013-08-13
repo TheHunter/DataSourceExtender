@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DataSourceExtender.Impl.PagingResult">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAABBAAAIQQAACAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Impl\PagingResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataSourceExtender.Impl.PersisterResult">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAgAAAACAAAAAgAAAAAAAAAACAAAAAg=</HashCode>
+      <FileName>Impl\PersisterResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataSourceExtender.Impl.QueryResult">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAACAAAAAg=</HashCode>
+      <FileName>Impl\QueryResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataSourceExtender.Impl.SourceParameter">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAQAAAAEAKAAAAAgAAAAAAA=</HashCode>
+      <FileName>Impl\SourceParameter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataSourceExtender.ActionEventArgs&lt;TParam, TResult&gt;">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAgAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>ActionEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSourceExtender.BusinessDataSource">
+    <Position X="14" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAECQAABIAAiJoAAAMAQIBAIGAJAEQAqRCAEAACo=</HashCode>
+      <FileName>BusinessDataSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSourceExtender.BusinessDataSourceView">
+    <Position X="16.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAQACAAAgAAAABAAAAAACAAAABAQAAqBAQAAAAA=</HashCode>
+      <FileName>BusinessDataSourceView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSourceExtender.DeletingEventArgs">
+    <Position X="3" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeletingEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSourceExtender.InnerControlParameter">
+    <Position X="11.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAgAKAAAACAAAAAAAAAIAAAA=</HashCode>
+      <FileName>InnerControlParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSourceExtender.SavingEventArgs">
+    <Position X="7.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>SavingEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSourceExtender.QueryResultEventArgs">
+    <Position X="9" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueryResultEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSourceExtender.SelectingEventArgs">
+    <Position X="5.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAEAAAAAAAAAIAACACAAAAAAAIAAAACAIAA=</HashCode>
+      <FileName>SelectingEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSourceExtender.SourceEventArgs">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAg=</HashCode>
+      <FileName>SourceEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSourceExtender.UpdatingEventArgs">
+    <Position X="0.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAAAAAQAAAAEAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>UpdatingEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSourceExtender.Exceptions.ControlNotFoundException" Collapsed="true">
+    <Position X="11.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAA=</HashCode>
+      <FileName>Exceptions\ControlNotFoundException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSourceExtender.Exceptions.ControlParameterException" Collapsed="true">
+    <Position X="17.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\ControlParameterException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSourceExtender.Exceptions.DelegateNotFoundException" Collapsed="true">
+    <Position X="13.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\DelegateNotFoundException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSourceExtender.Exceptions.SettingsControlException" Collapsed="true">
+    <Position X="15.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\SettingsControlException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DataSourceExtender.IPagingResult">
+    <Position X="0.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQQAACAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>IPagingResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataSourceExtender.IPersisterResult">
+    <Position X="2.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPersisterResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataSourceExtender.IQueryResult">
+    <Position X="1.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>IQueryResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataSourceExtender.ISourceParameter">
+    <Position X="11.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ISourceParameter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
