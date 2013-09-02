@@ -149,6 +149,7 @@
                 <nh:InnerControlParameter Name="IdentityCode" ControlID="GridConsultans" PropertyName="HeaderRow" InnerControlID="txtCodeFilter" InnerPropertyName="Text" Type="Int32" />
                 <nh:InnerControlParameter Name="Email" ControlID="GridConsultans" PropertyName="HeaderRow" InnerControlID="txtEmailFilter" InnerPropertyName="Text" Type="String" />
             </SelectParameters>
+
         </nh:BusinessDataSource>
             
 

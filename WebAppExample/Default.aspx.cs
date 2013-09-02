@@ -48,7 +48,7 @@ namespace WebAppExample
         protected void OnCancellingRow(object sender, EventArgs e)
         {
             var row = GetViewRow(sender);
-            var grid = DefaultPage.GetGridView(row);
+            var grid = GetGridView(row);
 
             if (grid != null) grid.DeleteRow(row.RowIndex);
         }
@@ -61,7 +61,7 @@ namespace WebAppExample
         protected void OnCancelEditingRow(object sender, EventArgs e)
         {
             var row = GetViewRow(sender);
-            var grid = DefaultPage.GetGridView(row);
+            var grid = GetGridView(row);
 
             if (grid != null) grid.EditIndex = -1;
         }
@@ -74,7 +74,7 @@ namespace WebAppExample
         protected void OnUpdatingRow(object sender, EventArgs e)
         {
             var row = GetViewRow(sender);
-            var grid = DefaultPage.GetGridView(row);
+            var grid = GetGridView(row);
 
             if (grid != null)
             {
