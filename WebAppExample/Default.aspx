@@ -142,7 +142,10 @@
         
         <nh:BusinessDataSource ID="CustomDataSource" runat="server"
             OnSelecting="CustomDataSource_Selecting"
-            OnUpdating="CustomDataSource_Updating" TypeName="PersistentLayer.Domain.Salesman" OnInit="OnInitDataSource" OnExecutionQueryError="CustomDataSource_ExecutionQueryError">
+            OnUpdating="CustomDataSource_Updating"
+            TypeName="PersistentLayer.Domain.Salesman"
+            OnInit="OnInitDataSource"
+            OnExecutionQueryError="CustomDataSource_ExecutionQueryError">
             <SelectParameters>
                 <nh:InnerControlParameter Name="Name" ControlID="GridConsultans" PropertyName="HeaderRow" InnerControlID="txtNameFilter" InnerPropertyName="Text" Type="String" />
                 <nh:InnerControlParameter Name="Surname" ControlID="GridConsultans" PropertyName="HeaderRow" InnerControlID="txtSurnameFilter" InnerPropertyName="Text" Type="String" />
